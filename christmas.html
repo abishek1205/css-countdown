@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="styles/christmass.css">
+
+
+</style>
+<body style="background-color: rgb(255, 0, 0);">
+    <div class="circle">
+    </div>
+    <div class="text">
+        <h1 class="text-light letters ">Merry <span class="letter-span">Chirstmas</span></h1>
+    </div>
+    <div class="container-fluid ">  
+    </div>
+    <div class="snow">
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:27;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:27;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:27;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:20;"></span>
+
+    </div>
+    <div class="count-title">
+        <h2>Days Left</h2>
+    </div>
+
+    <div class="count-down">
+        <div>
+            <button class="btn btn-success" id="days">
+                00
+            </button>
+            <span> Days</span>
+        </div>
+        <div>
+            <button class="btn btn-success" id="hours">
+                00
+            </button>
+            
+            <span>
+                Hours
+            </span>
+        </div>
+        <div>
+            <button class="btn btn-success" id="minutes">
+                00
+            </button>
+            <span>
+                Minutes
+            </span>
+        </div>
+        <div>
+            <button class="btn btn-success" id="seconds">
+                00
+            </button>
+            <span>
+                Seconds
+            </span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let countDownDate=new Date("dec 25, 2023 00:00:00").getTime();
+        let x=setInterval(()=>{
+            let now = new Date().getTime();
+            let distance = countDownDate-now;
+            let days = Math.floor(distance/(1000*60*60*24));
+            let hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+            let minutes =Math.floor((distance%(1000*60*60))/(1000*60));
+            let seconds =Math.floor((distance%(1000*60))/1000);
+            
+            document.getElementById("days").innerHTML=days
+            document.getElementById("hours").innerHTML=hours
+            document.getElementById("minutes").innerHTML=minutes
+            document.getElementById("seconds").innerHTML=seconds
+        },1000)
+    </script>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
