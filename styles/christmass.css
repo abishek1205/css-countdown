@@ -1,4 +1,6 @@
-
+body{
+    overflow: hidden;
+}
 .container-fluid::before{
     content: "";
     position: absolute;
@@ -118,3 +120,21 @@
     font-size: 20px;
     color: white;
  }
+
+@media (max-width:480px) {
+.text{
+    font-size: 15px;
+    left: 10%;
+    top:65%
+}
+.count-down{
+    
+    top:50%;
+}
+.count-title{
+    top: 40%;
+}
+
+
+
+}
