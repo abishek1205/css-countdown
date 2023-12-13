@@ -39,6 +39,8 @@ body{
 }
 .letters{
     font-size: 3em;
+    font-style: italic;
+    font-family: cursive;
 }
 .letter-span{
     color: rgb(107, 235, 107);
@@ -93,6 +95,7 @@ body{
 }
 .count-title h2{
     font-size: 3em;
+    font-style: italic;
     animation: animateTitle 5s ease-in-out infinite;
 
 }
@@ -125,14 +128,19 @@ body{
 .text{
     font-size: 15px;
     left: 10%;
-    top:65%
+    top:40%
+}
+.text span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .count-down{
     
-    top:50%;
+    top:60%;
 }
 .count-title{
-    top: 40%;
+    font-size: 14px;
+    top: 50%;
     
 }
 .circle{
