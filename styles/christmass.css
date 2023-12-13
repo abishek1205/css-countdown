@@ -40,10 +40,11 @@ body{
 .letters{
     font-size: 3em;
     font-style: italic;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 .letter-span{
     color: rgb(107, 235, 107);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -126,10 +127,10 @@ body{
 
 @media (max-width:480px) {
 .text{
-    font-size: 14px;
-    left: 10%;
+    font-size: 18px;
+    left: 3%;
     top:40%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 
 .count-down{
