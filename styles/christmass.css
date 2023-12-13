@@ -126,20 +126,18 @@ body{
 
 @media (max-width:480px) {
 .text{
-    font-size: 15px;
+    font-size: 14px;
     left: 10%;
-    top:40%
-}
-.text span{
+    top:40%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
+
 .count-down{
     
     top:60%;
 }
 .count-title{
-    font-size: 14px;
+    font-size: 13px;
     top: 50%;
     
 }
