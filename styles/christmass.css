@@ -127,8 +127,8 @@ body{
 
 @media (max-width:480px) {
 .text{
-    font-size: 18px;
-    left: 3%;
+    font-size: 15px;
+    left: 10%;
     top:40%;
  
 }
