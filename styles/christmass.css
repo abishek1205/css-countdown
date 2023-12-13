@@ -133,8 +133,21 @@ body{
 }
 .count-title{
     top: 40%;
+    
 }
+.circle{
+    left: 25%;
+}
+.circle::before{
+    background-size: 350px;
+}
+@keyframes animateTitle{
+    0%,100%{
+        transform: translate(-5px);
+    }
+    50%{
+        transform: translate(5px);
+    }
 
-
-
+}
 }
