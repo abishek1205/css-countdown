@@ -19,6 +19,7 @@ body{
     border-radius: 100px;
 
  }
+
 .circle::before{
     content: " ";
     position: absolute;
@@ -100,6 +101,7 @@ body{
     animation: animateTitle 5s ease-in-out infinite;
 
 }
+
 @keyframes animateTitle{
     0%,100%{
         transform: translate(-25px);
@@ -126,8 +128,9 @@ body{
  }
 
 @media (max-width:480px) {
+
 .text{
-    font-size: 15px;
+    font-size: 13px;
     left: 10%;
     top:40%;
  
